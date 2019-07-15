@@ -79,31 +79,11 @@ list_skor_ello = []
 for i in list_skor_andi_1:
     list_skor_ello.append((i[0],(list_skor_ello_1[i[0]][1]+list_skor_ello_2[i[0]][1]+list_skor_ello_3[i[0]][1])/3))
 
-sort_andi = sorted(
-    list_skor_andi,
-    key=lambda j:j[1],
-    reverse=True
-)
-sort_budi = sorted(
-    list_skor_budi,
-    key = lambda j:j[1],
-    reverse = True
-)
-sort_ciko = sorted(
-    list_skor_ciko,
-    key = lambda j:j[1],
-    reverse = True
-)
-sort_dedi = sorted(
-    list_skor_dedi,
-    key = lambda j:j[1],
-    reverse = True
-)
-sort_ello = sorted(
-    list_skor_ello,
-    key = lambda j:j[1],
-    reverse = True
-)
+sort_andi = sorted(list_skor_andi, key=lambda j:j[1], reverse=True)
+sort_budi = sorted(list_skor_budi, key = lambda j:j[1], reverse = True)
+sort_ciko = sorted(list_skor_ciko, key = lambda j:j[1], reverse = True)
+sort_dedi = sorted(list_skor_dedi, key = lambda j:j[1], reverse = True)
+sort_ello = sorted(list_skor_ello, key = lambda j:j[1], reverse = True)
 
 # top 5 recommendation
 sama_andi = []
